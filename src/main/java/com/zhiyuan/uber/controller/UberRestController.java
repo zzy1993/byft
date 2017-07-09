@@ -27,6 +27,7 @@ public class UberRestController {
 
     @RequestMapping(value = "/account", method = RequestMethod.GET)
     public Account testAccount(){
+        accountBean.setUsername("Zemin");
         return accountBean;
     }
 

@@ -15,6 +15,8 @@ public class UberConfiguration {
     @Bean
     public Account createAccount(){
         Account bean = new Account();
+        bean.setId(1);
+        bean.setUsername("Zhiyuan");
         return bean;
     }
 }
